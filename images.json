@@ -1,0 +1,35 @@
+[
+    {    
+        "id": "1",
+        "name": "Image One",
+        "description": "This is the full description of the image.",
+        "url": "http://example.com",
+        "image": "http://example.com/image.jpg",
+        "thumbnailUrl": "http://example.com/image-thumb.jpg",
+        "width": "250",
+        "height": "250",
+        "creator": "Creator Name"
+    },
+    {    
+        "id": "2",
+        "name": "Image Two",
+        "description": "This is the full description of the image.",
+        "url": "http://example.com",
+        "image": "http://example.com/image.jpg",
+        "thumbnailUrl": "http://example.com/image-thumb.jpg",
+        "width": "250",
+        "height": "250",
+        "creator": "Creator Name"
+    },
+    {    
+        "id": "3",
+        "name": "Image Three",
+        "description": "This is the full description of the image.",
+        "url": "http://example.com",
+        "image": "http://example.com/image.jpg",
+        "thumbnailUrl": "http://example.com/image-thumb.jpg",
+        "width": "250",
+        "height": "250",
+        "creator": "Creator Name"
+    }    
+]
