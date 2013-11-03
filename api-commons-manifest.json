@@ -1,0 +1,13 @@
+{
+    "apis": [
+        {
+            "name": "Images",
+            "description": "This is a simple API specification for a listing of photos and images.",
+            "url": "https://github.com/ongithub/images/blob/gh-pages/images",
+            "type": "swagger",
+            "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-camera.jpg",
+            "keywords": "images, photo, gallery"
+        }
+    ],
+    "updated": "11/03/2013"
+}
