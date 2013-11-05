@@ -3,11 +3,18 @@
         {
             "name": "Images",
             "description": "This is a simple API specification for a listing of photos and images.",
-            "url": "https://github.com/ongithub/images/blob/gh-pages/images",
-            "type": "swagger",
             "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-camera.jpg",
-            "keywords": "images, photo, gallery"
+            "keywords": "images, photo, gallery",
+            "license": "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US",
+            "attribution": "Kin Lane",
+            "definitions": [
+                {
+                    "type": "swagger",
+                    "url": "https://github.com/ongithub/images/blob/gh-pages/images"
+                }
+            ]
         }
     ],
+    "tags": "api-commons-manifest",
     "updated": "11/03/2013"
 }
