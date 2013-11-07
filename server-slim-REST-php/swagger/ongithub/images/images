@@ -1,0 +1,111 @@
+{
+    "apiVersion": "1.0",
+    "swaggerVersion": "1.2",
+    "basePath": "http://api.1.ongithub.com/ongithub",
+    "resourcePath": "/images",
+    "produces": [
+        "application/json"
+    ],
+    "apis": [
+        {
+            "path": "/images/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Pulls a listing of images",
+                    "notes": "Returns a list of images, allowing you to filter by keyword query.",
+                    "nickname": "getJobs",
+                    "type": "images",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across images",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Jobs To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/images/{id}",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Retrieve an image using its ID",
+                    "notes": "Returns a images detail",
+                    "type": "people",
+                    "nickname": "getJobs",
+                    "produces": [
+                        "application/json"
+                    ],
+                    "parameters": [
+                        {
+                            "name": "id",
+                            "description": "id for the job, notice this is in the path, not a query variable",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "integer",
+                            "paramType": "path"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "Invalid Application Information ID supplied"
+                        },
+                        {
+                            "code": 404,
+                            "message": "People not found"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "models": {
+        "images": {
+            "id": "images",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },              
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "thumbnailUrl": {
+                    "type": "string"
+                },
+                "width": {
+                    "type": "string"
+                },
+                "height": {
+                    "type": "string"
+                },
+                "creator": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
