@@ -4,10 +4,17 @@
         "name": "Image One",
         "description": "This is the full description of the image.",
         "url": "http://example.com",
-        "image": "http://example.com/image.jpg",
-        "thumbnailUrl": "http://example.com/image-thumb.jpg",
-        "width": "250",
-        "height": "250",
+        "images": [
+            { "image": "http://example.com/image.jpg",
+              "width": "250",
+              "height": "250"
+            },
+            {
+              "image": "http://example.com/image-thumb.jpg",
+              "width": "64",
+              "height": "64"
+            }
+        ],
         "creator": "Creator Name"
     },
     {    
@@ -15,10 +22,17 @@
         "name": "Image Two",
         "description": "This is the full description of the image.",
         "url": "http://example.com",
-        "image": "http://example.com/image.jpg",
-        "thumbnailUrl": "http://example.com/image-thumb.jpg",
-        "width": "250",
-        "height": "250",
+        "images": [
+            { "image": "http://example.com/image.jpg",
+              "width": "250",
+              "height": "250"
+            },
+            {
+              "image": "http://example.com/image-thumb.jpg",
+              "width": "64",
+              "height": "64"
+            }
+        ],
         "creator": "Creator Name"
     },
     {    
@@ -26,10 +40,17 @@
         "name": "Image Three",
         "description": "This is the full description of the image.",
         "url": "http://example.com",
-        "image": "http://example.com/image.jpg",
-        "thumbnailUrl": "http://example.com/image-thumb.jpg",
-        "width": "250",
-        "height": "250",
+        "images": [
+            { "image": "http://example.com/image.jpg",
+              "width": "250",
+              "height": "250"
+            },
+            {
+              "image": "http://example.com/image-thumb.jpg",
+              "width": "64",
+              "height": "64"
+            }
+        ],
         "creator": "Creator Name"
     }    
 ]

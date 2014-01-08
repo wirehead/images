@@ -90,18 +90,20 @@
                 "url": {
                     "type": "string"
                 },
-                "image": {
-                    "type": "string"
-                },
-                "thumbnailUrl": {
-                    "type": "string"
-                },
-                "width": {
-                    "type": "string"
-                },
-                "height": {
-                    "type": "string"
-                },
+                "images": {
+                    "type": array",
+                    "items": {
+                        "image": {
+                            "type": "string"
+                        },
+                        "width": {
+                            "type": "string"
+                        },
+                        "height": {
+                            "type": "string"
+                        }
+                    }
+                }
                 "creator": {
                     "type": "string"
                 }
